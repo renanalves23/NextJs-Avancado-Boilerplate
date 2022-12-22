@@ -25,6 +25,9 @@
       "yarn test --findRelatedTests --bail"
     ]
   },
+  "files": [
+    "src/styles/styled.d.ts"
+  ],
   "dependencies": {
     "@next/font": "13.0.7",
     "@types/node": "18.11.17",

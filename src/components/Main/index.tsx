@@ -1,3 +1,5 @@
+import Heading from '../Heading'
+import Logo from '../Logo'
 import * as S from './styles'
 
 interface IMain {
@@ -11,6 +13,9 @@ const Main = ({
 }: IMain) => (
   <S.Wrapper>
     <S.Logo src="/img/logo.svg" alt="logo" />
+    {/* <Heading>
+      <Logo />
+    </Heading> */}
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
     <S.Illustration
